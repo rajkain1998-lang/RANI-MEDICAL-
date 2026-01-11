@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RANI MEDICAL | Pharmacist Rajpal Jatav</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f8fb;
+    color: #222;
+}
+header {
+    background: linear-gradient(135deg, #0b4db8, #0a77d5);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+header p {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+.section {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.section h2 {
+    margin-top: 0;
+    color: #0b4db8;
+    border-bottom: 2px solid #0b4db8;
+    padding-bottom: 8px;
+}
+.info p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+.highlight {
+    font-weight: bold;
+    color: #0b4db8;
+}
+.services ul, .medicines ul {
+    padding-left: 20px;
+}
+.services li, .medicines li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.note {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+.contact-box {
+    background: #0b4db8;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-box p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+footer {
+    background: #081f4a;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>RANI MEDICAL</h1>
+    <p>Licensed Medical Store & Professional Pharmacist</p>
+</header>
+
+<div class="container">
+
+    <div class="section info">
+        <h2>👨‍⚕️ Pharmacist Details</h2>
+        <p><span class="highlight">Name:</span> Rajpal Jatav</p>
+        <p><span class="highlight">Qualification:</span> Pharmacist (D. Pharma)</p>
+        <p><span class="highlight">Rajasthan Pharmacy Council Reg. No.:</span> 100962</p>
+    </div>
+
+    <div class="section services">
+        <h2>💊 Services</h2>
+        <ul>
+            <li>Allopathic Medicines Available</li>
+            <li>General & Branded Medicines</li>
+            <li>Prescription-based Dispensing</li>
+            <li>Professional Pharmacist Guidance</li>
+        </ul>
+    </div>
+
+    <div class="section medicines">
+        <h2>🧾 Medicines Available</h2>
+        <ul>
+            <li>Fever, Cold & Cough Medicines</li>
+            <li>Pain Relief & Anti-Inflammatory Medicines</li>
+            <li>Antibiotics (Prescription Only)</li>
+            <li>Diabetes Medicines</li>
+            <li>Blood Pressure & Cardiac Medicines</li>
+            <li>Gastric & Liver Medicines</li>
+            <li>Allergy & Skin Care Medicines</li>
+            <li>Vitamins, Minerals & Supplements</li>
+            <li>Pediatric Medicines</li>
+            <li>Elderly Care Medicines</li>
+        </ul>
+        <p class="note">
+            *All medicines are dispensed strictly as per doctor prescription and pharmacy regulations.
+        </p>
+    </div>
+
+    <div class="section contact-box">
+        <h2>📞 Contact & Address</h2>
+        <p><strong>Mobile:</strong> +91 97839 67280</p>
+        <p><strong>Address:</strong> Pahadi Ka Pura (Sorya), Karauli – 322241</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 RANI MEDICAL | Pharmacist Rajpal Jatav
+</footer>
+
+</body>
+</html>
